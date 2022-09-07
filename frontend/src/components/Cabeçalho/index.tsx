@@ -1,5 +1,5 @@
-import "./styles.css"
-import logo from "../../assets/img/logo.svg"
+import "./styles.css";
+import logo from "../../assets/img/logo.svg";
 
 function Cabeçalho() {
   return (
@@ -16,4 +16,4 @@ function Cabeçalho() {
   )
 }
 
-export default Cabeçalho
+export default Cabeçalho;
