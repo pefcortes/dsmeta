@@ -1,10 +1,13 @@
 import Cabeçalho from "./components/Cabeçalho";
 import SalesCard from "./components/SalesCard";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {
   return (
     <>
+      <ToastContainer />
       <Cabeçalho />
       <main>
         <section id="sales">
